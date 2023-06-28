@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  border-bottom: 1px solid var(--cornflower);
+  /* border-bottom: 1px solid var(--cornflower); */
 }
 
 .logo {
