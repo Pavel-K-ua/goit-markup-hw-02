@@ -70,6 +70,68 @@ ul {
   text-decoration: none;
   font-style: normal;
 }
+.hero-section {
+    background-color: var(--navy-blue);
+}
+
+.hero-title {
+    width: 496px;
+    color: var(--white);
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.2;
+letter-spacing: 1.12px;
+}
+
+
+.hero-btn {
+    color: var(--white);
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+padding: 16px 32px;
+border: none;
+border-radius: 4px;
+background: var(--iris);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: var(--ocean);
+}
+
+
+
+.section-title {
+    color: var(--navyblue);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .filter-btn {
   padding: 12px 24px;
@@ -92,7 +154,8 @@ ul {
   cursor: pointer;
   color: var(--white);
 }
-
+.feature-title,
+.member-name,
 .project-title {
   color: var(--navy-blue);
   font-size: 20px;
@@ -101,6 +164,8 @@ ul {
   letter-spacing: 0.4px;
 }
 
+.feature-desc,
+.member-position,
 .project-type {
   color: var(--slate);
   font-size: 16px;
