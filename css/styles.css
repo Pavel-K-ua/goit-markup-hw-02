@@ -17,34 +17,37 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
-  color: var(--navy-blue);
+  color: var(--slate);
+  background-color: var(--white);
 }
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style: none;
 }
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
-.logo-web {
-  color: #4d5ae5;
-}
-
-.header-logo {
+.logo-studio {
   color: var(--navy-blue);
+}
+
+.footer-logo {
+  color: var(--cloud);
 }
 
 .nav-link {
@@ -63,13 +66,15 @@ ul {
   color: var(--ocean);
 }
 
+address {
+  font-style: normal;
+}
 .address-link {
   color: var(--slate);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
   text-decoration: none;
-  font-style: normal;
 }
 
 .hero-section {
@@ -82,12 +87,13 @@ ul {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
 .hero-btn {
   color: var(--white);
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -97,6 +103,7 @@ ul {
   border-radius: 4px;
   background: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -112,6 +119,14 @@ ul {
   line-height: 1.1;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-member {
+  background-color: var(--white);
 }
 
 .filter-btn {
@@ -142,7 +157,7 @@ ul {
   color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.4px;
 }
 
@@ -159,10 +174,6 @@ ul {
   width: 1440px;
   height: 312px;
   background-color: var(--navy-blue);
-}
-
-.footer-logo {
-  color: #f4f4fd;
 }
 
 .footer-description {
