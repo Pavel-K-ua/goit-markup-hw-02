@@ -15,8 +15,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  /* padding: 0;
-  margin: 0; */
   color: var(--slate);
   background-color: var(--white);
 }
@@ -29,7 +27,6 @@ body {
 }
 
 .header {
-  /* border-bottom: 1px solid var(--cornflower); */
 }
 
 .logo {
@@ -82,9 +79,8 @@ address {
 }
 
 .hero-title {
-  /* width: 496px; */
   color: var(--white);
-  text-align: center;
+  /* text-align: center; */
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -98,11 +94,7 @@ address {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  /* padding: 16px 32px; */
-  /* border: none; */
-  /* border-radius: 4px; */
   background: var(--iris);
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   cursor: pointer;
 }
 
@@ -113,7 +105,7 @@ address {
 
 .section-title {
   color: var(--navy-blue);
-  text-align: center;
+  /* text-align: center; */
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -130,17 +122,14 @@ address {
 }
 
 .filter-btn {
-  /* padding: 12px 24px; */
   font-family: "Roboto", sans-serif;
 
   color: var(--iris);
-  text-align: center;
+  /* text-align: center; */
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
     letter-spacing: 0.04em;
-  /* border-radius: 4px;
-  border: 1px solid var(--cornflower); */
   background: var(--cloud);
 }
 
@@ -148,8 +137,6 @@ address {
 .filter-btn:focus,
 .filter-btn:active {
   background: var(--ocean);
-  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1); */
   cursor: pointer;
   color: var(--white);
 }
@@ -174,7 +161,6 @@ address {
 }
 
 .footer {
-  /* width: 1440px; */
   height: 312px;
   background-color: var(--navy-blue);
 }
